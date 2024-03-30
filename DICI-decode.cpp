@@ -9,13 +9,13 @@ int main(int argc, char* argv[])
     if (argc < 2)
     {
         cout << "Incorrect command, use: " << endl;
-        cout << "DICI-encode-image file_name output_file" << endl << endl;
-        cout << "Exemple : DICI-decode-image cat.dici cat.png" << endl << endl;
+        cout << "DICI-encode file_name output_file" << endl << endl;
+        cout << "Exemple : DICI-decode cat.dici cat.png" << endl << endl;
         cout << "Or for the viewer use : " << endl;
-        cout << "DICI-encode-image file_name -v" << endl << endl;
-        cout << "Exemple : DICI-decode-image cat.dici" << endl;
+        cout << "DICI-encode file_name -v" << endl << endl;
+        cout << "Exemple : DICI-decode cat.dici" << endl;
         cout << "To decompress a folder: : " << endl;
-        cout << "DICI-decode-image input_folder output_folder" << endl;
+        cout << "DICI-decode input_folder output_folder" << endl;
         return 0;
     }
 

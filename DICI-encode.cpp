@@ -11,9 +11,9 @@ int main(int argc, char* argv[])
     if (argc < 3)
     {
         cout << "Missing argument :"<<endl;
-        cout << "DICI-encode-image input output" << endl<<endl;
-        cout<< "Example : DICI-encode-image cat.png cat.dici"<<endl;
-        cout<< "        : DICI-encode-image c:\folder\ c:\folder2" << endl;
+        cout << "DICI-encode input output" << endl<<endl;
+        cout<< "Example : DICI-encode cat.png cat.dici"<<endl;
+        cout<< "        : DICI-encode c:\folder\ c:\folder2" << endl;
         return 0;
     }
 
