@@ -4,9 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/includes",
-                "${workspaceFolder}/includes/",
-                "${workspaceFolder}/includes/**"
+                "/home/bralekor/Documents/github/DICI"
             ],
             "defines": []
         }
