@@ -2,7 +2,7 @@
  * DICI - Dictionnary Index for Compressed Image
  * Lossless File Format
  * 
- * Copyright 2023 Arnaud Recchia and Kévin Passemard
+ * Copyright 2024 Arnaud Recchia and Kévin Passemard
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
