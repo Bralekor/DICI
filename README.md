@@ -35,6 +35,10 @@ imgToDecode.save("c:\image.png"); // Save the image
 imgToDecode.view(); // Display the image
 ```
 
+### Benchmark
+
+Coming soon !
+
 ## 💡 Contributing
 
 We warmly welcome contributions! If you're passionate about enhancing the DICI format or wish to introduce new features, we encourage you to submit pull requests or initiate discussions through issues.
