@@ -35,7 +35,7 @@ imgToDecode.save("c:\image.png"); // Save the image
 imgToDecode.view(); // Display the image
 ```
 
-### Benchmark
+## Benchmark
 
 Coming soon !
 
