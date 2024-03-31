@@ -1,7 +1,7 @@
 
 # DICI Image Format
 
-The **DICI image format** is a lossless image compression format that offers an improved compression speed ratio compared to more popular formats. Developed by Arnaud Recchia and Kévin Passemard, DICI aims to provide file sizes similar to or better than the WebP format especially for large images, with significantly faster encoding and decoding speeds.
+The **DICI image format** is a lossless image compression format that offers an improved compression speed ratio compared to more popular formats. Developed by Arnaud Recchia and Kévin Passemard, DICI aims to provide file sizes similar to or better than the WebP format, with significantly faster encoding and decoding speeds especially for large images.
 
 ## 🎨 Supported Color Formats
 
