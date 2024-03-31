@@ -47,10 +47,6 @@ imgToDecode.view(); // Display the image
 
 Coming soon !
 
-## 💡 Contributing
-
-We warmly welcome contributions! If you're passionate about enhancing the DICI format or wish to introduce new features, we encourage you to submit pull requests or initiate discussions through issues.
-
 ## 📜 License
 
 Distributed under the Apache 2.0 License. See `LICENSE` for more information.
