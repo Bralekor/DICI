@@ -17,6 +17,10 @@ To utilize DICI, ensure that **openCV** is installed as a prerequisite.
 ### Encoding Process
 
 ```c++
+#include "DICIencode.h"
+
+...
+
 DICIencode imageToEncode;
 imageToEncode.setFileIN("c:\image.bmp"); // Input file path
 imageToEncode.setFileOUT("c:\image.dici"); // Output file path
@@ -27,6 +31,10 @@ imageToEncode.DICIcompress(); // Initiate compression
 ### Decoding Process
 
 ```c++
+#include "DICIdecode.h"
+
+...
+
 DICIdecode imgToDecode;
 imgToDecode.setFileIN("c:\image.dici"); // Input DICI file path
 imgToDecode.setThreaded(1); // Enable multi-threading
