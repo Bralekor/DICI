@@ -1,3 +1,22 @@
+/*
+ * DICI - Dictionnary Index for Compressed Image
+ * Lossless File Format
+ * 
+ * Copyright 2023 Arnaud Recchia and KÃ©vin Passemard
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #include "filter.h"
 
 using namespace std;
@@ -248,7 +267,7 @@ void Filter::Apply16(bool part)
 	uint8_t* curseurPtr = endPixel;
 	indexBlock = endBlock.size() - 1; 
 
-	// On récupère le dernier pixel de chaque blocs
+	// On rï¿½cupï¿½re le dernier pixel de chaque blocs
 	for (int a = 0; a < nbBlockHeight; a++)
 	{
 		for (int b = 0; b < nbBlockWidth; b++)
@@ -546,7 +565,7 @@ void Filter::ApplyFilterWithNoThread()
 
 	indexBlock = endBlock.size() - 1; // On remet l'index sur le dernier block
 
-	// on ne prend pas le premier et dernier block de la ligne car il faut appeller une fonction spécifique pour eux
+	// on ne prend pas le premier et dernier block de la ligne car il faut appeller une fonction spï¿½cifique pour eux
 	for (int a = 0; a < nbBlockHeight - 1; a++) 
 	{
 		for (int b = 0; b < nbBlockWidth - 1; b++)
