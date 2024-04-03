@@ -54,9 +54,9 @@ The first 3000 images were recovered and converted to 24-bit bmp format.
 
 The conversion to PNG and webp format was done with benchmark software that uses openCV, the conversions are done by keeping the default parameters and activating multi-threading (if available).
 
-Benchmark performed on a Ryzen 7 3800XT (8 Core - 3.9ghz), 16gb DDR4 3200mhz
-
 Benchmark : https://docs.google.com/spreadsheets/d/1oLSE99_0oJzJbufkOxKr5TmmTNkSFzWYMvTQCkUXeHY
+
+Performed on a Ryzen 7 3800XT (8 Core - 3.9ghz), 16gb DDR4 3200mhz
 
 The benchmark results show equivalent or even better compression than webp with much faster encoding and decoding speeds for DICI, other benchmarks show that the larger the image, the more efficient the algorithm is in terms of compression and speed
 
