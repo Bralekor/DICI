@@ -32,7 +32,7 @@ A frequency table of each colorimetric value is then created. This table is sort
 
 A hashmap is then created containing a key/value pair of the pixel's colorimetric value and its position index in the frequency table. This step allows for quicker retrieval of the frequency order relative to a pixel's colorimetric value. Each pixel of the image is then replaced by its position index within the frequency table.
 
-To allow for efficient compression at low cost, the data will then be written within a file, bypassing the classic rules of data writing in bytes. Indeed, all numbers will be represented by two distinct figures: the first being the number itself after optimization (`optValue`), and the second being the number of bits used in writing this number (`nbBit`).
+To allow for efficient compression at low cost, the data will then be written within a file, bypassing the classic rules of data writing in bytes. Indeed, all numbers will be represented by two distinct bit code: the first being the number itself after optimization (`optValue`), and the second being the number of bits used in writing this number (`nbBit`).
 
 `nbBit = log2(x + 2)`
 
