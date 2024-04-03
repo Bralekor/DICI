@@ -43,6 +43,9 @@ imgToDecode.save("c:\image.png"); // Save the image
 imgToDecode.view(); // Display the image
 ```
 
+## Documentation
+You can find the documentation on this link : https://github.com/Bralekor/DICI/blob/master/docs/manual.md
+
 ## Benchmark
 
 Coming soon !
