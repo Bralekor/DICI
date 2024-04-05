@@ -10,10 +10,11 @@ int main(int argc, char* argv[])
 
     if (argc < 3)
     {
-        cout << "Missing argument :"<<endl;
-        cout << "DICI-encode input output" << endl<<endl;
-        cout<< "Example : DICI-encode cat.png cat.dici"<<endl;
-        cout<< "        : DICI-encode c:\folder\ c:\folder2" << endl;
+        cout << "Missing argument :"<< endl;
+        cout << "DICI-encode input output" << endl << endl;
+        cout << "Example : DICI-encode cat.png cat.dici" << endl;
+        cout << "        : DICI-encode c:\folder\ c:\folder2" << endl;
+        cout << "For single thread use -nt or -noThread" << endl;
         return 0;
     }
 
