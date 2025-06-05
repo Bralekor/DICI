@@ -75,15 +75,25 @@ int main(int argc, char* argv[])
         imgToDecode.setFileIN(argv[1]);
         imgToDecode.setThreaded(withThread);
         imgToDecode.DICIdecompress();
+		
+		
+		if (argc == 2) {    
+		
+			imgToDecode.view();
+			
+		} else if (argc > 2) {
 
-        if (argc > 2)
-        {
-            imgToDecode.save(argv[2]);
-        }
-        else
-        {
-            imgToDecode.view();
-        }
+			if (strcmp(argv[2], "-v") == 0) {
+           
+				imgToDecode.view();
+				
+			}else{
+            
+				imgToDecode.save(argv[2]);
+            
+			}
+		}		
+		
     }
 
     return 0;
