@@ -21,6 +21,8 @@
 
 #include <lzma/Lzmalib.h>
 
+#include <cstdint>
+#include <cmath>
 #include <vector>
 #include <fstream>
 #include <iostream>
