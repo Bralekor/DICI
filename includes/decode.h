@@ -21,6 +21,7 @@
 
 #include <lzma/LzmaLib.h>
 
+#include <cstring>
 #include <cstdint>
 #include <cmath>
 #include <vector>

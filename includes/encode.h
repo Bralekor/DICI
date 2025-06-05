@@ -21,7 +21,7 @@
 
 #include <lzma/LzmaLib.h>
 #include <ska/bytell_hash_map.hpp>
-
+#include <cstring>
 #include <vector>
 
 using namespace std;
