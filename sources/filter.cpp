@@ -867,7 +867,7 @@ uint8_t Filter::SearchFilterBLock(uint8_t* curPos)
 
 uint8_t Filter::SearchFilterCornerUpLeftBLock(uint8_t* curPos)
 {
-	vector<uint32_t> totalPixel(9);
+	vector<uint32_t> totalPixel(10);
 
 	uint8_t* pixLeft = curPos - canals;
 	uint8_t* pixUp = curPos - (width * canals);
@@ -925,7 +925,7 @@ uint8_t Filter::SearchFilterCornerUpLeftBLock(uint8_t* curPos)
 
 uint8_t Filter::SearchFilterUpBLock(uint8_t* curPos)
 {
-	vector<uint32_t> totalPixel(9);
+	vector<uint32_t> totalPixel(10);
 
 	uint8_t* pixLeft = curPos - canals;
 	uint8_t* pixUp = curPos - (width * canals);
@@ -984,7 +984,7 @@ uint8_t Filter::SearchFilterUpBLock(uint8_t* curPos)
 
 uint8_t Filter::SearchFilterLeftBLock(uint8_t* curPos)
 {
-	vector<uint32_t> totalPixel(9);
+	vector<uint32_t> totalPixel(10);
 
 	uint8_t* pixLeft = curPos - canals;
 	uint8_t* pixUp = curPos - (width * canals);

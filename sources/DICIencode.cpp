@@ -223,8 +223,7 @@ void DICIencode::setThreaded(bool threaded)
 
 void DICIencode::clear()
 {
-    delete &image;
-
+	
     splitData.clear();
     out.clear();
     threads.clear();
