@@ -1,3 +1,2 @@
-includes/lzma/*.c linguist-vendored
-includes/lzma/*.h linguist-vendored
-includes/ska/* linguist-vendored
+includes/lzma/* linguist-generated
+includes/ska/* linguist-generated
