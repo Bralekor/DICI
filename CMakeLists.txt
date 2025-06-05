@@ -17,7 +17,7 @@ add_executable(DICI-encode
     sources/DICIencode.cpp
     sources/encode.cpp
     sources/filter.cpp
-    ${LZMA_SDK_SOURCES} # <-- Ajout des sources du LZMA SDK
+    ${LZMA_SDK_SOURCES} 
 )
 
 
@@ -28,7 +28,7 @@ add_executable(DICI-decode
     sources/DICIdecode.cpp
     sources/decode.cpp
     sources/filter_reverse.cpp
-    ${LZMA_SDK_SOURCES} # <-- Ajout des sources du LZMA SDK
+    ${LZMA_SDK_SOURCES} 
 )
 
 target_link_libraries(DICI-decode ${OpenCV_LIBS})
