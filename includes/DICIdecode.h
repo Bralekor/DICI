@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include "Decode.h"
+#include "decode.h"
 
 #include <opencv2/opencv.hpp>
 

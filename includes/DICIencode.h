@@ -22,7 +22,7 @@
 #include <fstream>
 
 #include "filter.h"
-#include "Encode.h"
+#include "encode.h"
 
 using namespace std;
 

@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-#include "Encode.h"
+#include "encode.h"
 
 
 using namespace std;

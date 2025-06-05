@@ -19,7 +19,7 @@
 
 #pragma once
 
-#include <lzma/Lzmalib.h>
+#include <lzma/LzmaLib.h>
 #include <ska/bytell_hash_map.hpp>
 
 #include <vector>
