@@ -1,4 +1,0 @@
-C:/GIT/DICI/build/CMakeFiles/DICI-encode.dir
-C:/GIT/DICI/build/CMakeFiles/DICI-decode.dir
-C:/GIT/DICI/build/CMakeFiles/edit_cache.dir
-C:/GIT/DICI/build/CMakeFiles/rebuild_cache.dir

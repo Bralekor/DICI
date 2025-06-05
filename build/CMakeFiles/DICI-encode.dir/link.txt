@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\DICI-encode.dir/objects.a
-C:\mingw\bin\ar.exe qc CMakeFiles\DICI-encode.dir/objects.a @CMakeFiles\DICI-encode.dir\objects1.rsp
-C:\mingw\bin\c++.exe -Wl,--whole-archive CMakeFiles\DICI-encode.dir/objects.a -Wl,--no-whole-archive -o DICI-encode.exe -Wl,--out-implib,libDICI-encode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DICI-encode.dir\linkLibs.rsp
