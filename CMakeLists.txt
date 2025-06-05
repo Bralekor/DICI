@@ -15,7 +15,7 @@ include_directories(${OpenCV_INCLUDE_DIRS} includes ${CMAKE_CURRENT_SOURCE_DIR}/
 add_executable(DICI-encode
     DICI-encode.cpp
     sources/DICIencode.cpp
-    sources/Encode.cpp
+    sources/encode.cpp
     sources/filter.cpp
     ${LZMA_SDK_SOURCES} # <-- Ajout des sources du LZMA SDK
 )
@@ -26,7 +26,7 @@ target_link_libraries(DICI-encode ${OpenCV_LIBS})
 add_executable(DICI-decode
     DICI-decode.cpp
     sources/DICIdecode.cpp
-    sources/Decode.cpp
+    sources/decode.cpp
     sources/filter_reverse.cpp
     ${LZMA_SDK_SOURCES} # <-- Ajout des sources du LZMA SDK
 )
